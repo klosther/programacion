@@ -1,0 +1,73 @@
+/* *  asterisco(*) es un selector universal, pasa por encima de los demas selectores */
+
+/* # + nombre de id "#" selector de id, el id es unico y no se puede repetir */
+
+/* "." selector de clases */
+
+/* [] + nombre del atributo. selector de atributos */
+
+/* h2 p, para selecionar por descendiente */
+
+/* !important, va por sobre todos los elementos */
+
+/* :first-child */ 
+
+/* em valor relativo, se puede heredar el valor o lo da por defecto el navegador */
+
+/* vw (% de la pantalla a lo ancho, medida relativa); vh (% de la pantalla a lo largo, tambien medida relativa) */
+
+/* display para cambiar el comportamiento dentro de la "caja"*/
+
+* {
+   
+    background-color: rgb(224, 224, 224);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;  /* margen entre renglones */
+    font-weight: 400; /* grosor de la tipografia */
+    margin: auto;
+    text-align: center;
+} 
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+ul {
+
+    list-style-type: none;
+    background-color: rgb(75, 75, 75);
+    padding: 40px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+li {
+
+    float: left;
+   
+}
+
+li a {
+
+    display: block;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    padding-inline-end: 14px 16px;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+  
+}
+
+li a:hover {
+
+    background-color: rgb(66, 66, 66);
+
+}
