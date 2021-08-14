@@ -1,8 +1,33 @@
-div {
-    width: 300px;
-    height: 300px;
-    background-color: blue;
+*{
     margin: auto;
-    border-style: groove;
-    border-color: black;
+    background-color: rgb(160, 47, 160);
+}
+
+.caja1 {
+    width: 800px;
+    height: 80px;
+    background-color: rgb(82, 82, 82);
+}
+
+.caja2 {
+    width: 800px;
+    height: 800px;
+    background-color: rgb(158, 158, 158);
+}
+
+.caja3 {
+    width: 100px;
+    height: 800 px;
+    background-color: rgb(107, 107, 107);
+    position: relative;
+    bottom: 800px;
+    right: 350px;
+}
+
+.caja4 {
+    width: 800px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    bottom: 800px;
 }
